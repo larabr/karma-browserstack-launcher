@@ -160,7 +160,8 @@ var BrowserStackBrowser = function (
     var settings = Object.assign(
       {
         url: url + '?id=' + id,
-        'browserstack.tunnel': true
+        'browserstack.tunnel': true,
+        'browserstack.networkLogs': true
       },
       globalSettings,
       args
